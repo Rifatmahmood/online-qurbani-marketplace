@@ -80,14 +80,16 @@ button {
 .animals{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gri
-    margin-top: 10px;
+    grid-column-gap: 10px;
+    margin-left: 100px;
     justify-content: center;
     align-items: center;
     
 }
 
-   
+   .animal{
+       margin-top:100px;
+   }
 
 .animal-photo{
 width: 300px;
