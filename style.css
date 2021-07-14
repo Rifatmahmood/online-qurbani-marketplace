@@ -42,7 +42,6 @@ button {
     cursor: pointer ;
     border-radius: 30px;
 }
-
 /* section-1  */
 .sec-1-container
 {
@@ -63,11 +62,18 @@ button {
 }
 .sec-1-button{
     padding: 9px 25px;
-    background-color: ; 
+    background-color: #004481;   
     border: none;   
-    cursor: pointer ;
+    cursor: pointer;
 }
-
+.sec-1-title:hover{
+    transform: scale(1.20) rotate(360deg); font-weight: 2000; color: white;
+    transition: transform 1s ease-in-out;
+}
+.sec-1-button:hover{
+    transform: scale(1) rotate(360deg);
+    transition: transform 1s ease-in-out;
+}
 /* section-2 */
 .animal-container{
     background-color: whitesmoke;
