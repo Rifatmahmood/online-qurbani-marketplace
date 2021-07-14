@@ -80,14 +80,15 @@ button {
 .animals{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
+    grid-gap: 30px;
+    padding-left: 50px;
     justify-content: center;
     align-items: center;
     
 }
 
    .animal{
-   
+       width: 320px;
          justify-content: center;
          align-items: center;
    }
@@ -108,14 +109,17 @@ height: 400px;
 
 .sec-3-container{
     width: 1440px;
-    height: 150px;
+    height: 200px;
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
-
+.footer-content p{
+    align-items: center;
+    padding-left: 20px;
+}
 .footer-logo{
     height: 60px;
     cursor: pointer;
@@ -123,7 +127,7 @@ height: 400px;
 }
 .footer-social-links{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .social-logo{
     width: 32px;
